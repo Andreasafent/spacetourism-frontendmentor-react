@@ -5,9 +5,6 @@ import './App.css'
 
 function App() {
 
-    return (
-        <p className="text-[150px] font-title">SPACE</p>
-    )
 }
 
 export default App
