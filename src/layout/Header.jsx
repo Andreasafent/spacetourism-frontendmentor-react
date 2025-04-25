@@ -4,10 +4,6 @@ import Sidebar from "../components/Sidebar";
 function Header() {
 	const [open, setOpen] = useState(false);
 
-	useEffect(() => {
-		console.log(open);
-	}, [open]);
-
 	return (
 		<>
 			<header className="w-full h-[88px] flex justify-between items-center p-[24px] sm:p-0 sm:h-[96px] xl:mt-[40px]">
@@ -22,7 +18,7 @@ function Header() {
 
 				<div className="sm:w-full sm:h-[100%] sm:bg-[#181a26] max-w-[1024px] xl:bg-white/5 xl:backdrop-blur-[20px]">
 					<button
-						className="flex items-center"
+						className="flex items-center cursor-pointer"
 						onClick={() => setOpen(true)}
 					>
 						<img
