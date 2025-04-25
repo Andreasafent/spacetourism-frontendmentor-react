@@ -25,3 +25,9 @@
     font-weight: 400;
     font-style: normal;
 }
+
+.font-secondary-bold {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
