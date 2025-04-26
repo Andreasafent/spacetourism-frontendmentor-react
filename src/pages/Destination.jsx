@@ -28,9 +28,9 @@ function Destination() {
 
 					<div className="flex flex-col sm:px-[87px] flex-1 xl:px-0 xl:items-start xl:justify-between">
 						<div className="px-[40.5px] xl:px-0">
-							<ul className="flex justify-center gap-[32px]">
-								{data.destinations.map((dest) => (
-									<li key={dest.name} className={`h-[32px] leading-none tracking-[2.1px] flex flex-col items-center relative cursor-pointer ${destination.name === dest.name ? 'border-b-3 border-white': 'hover:border-white/50'} hover:border-b-3 `} onClick={()=>setDestination(dest)}>
+							<ul className="flex justify-center gap-[32px] flex-wrap">
+								{data.destinations.map((dest, index) => (
+									<li key={index} className={`h-[32px] leading-none tracking-[2.1px] flex flex-col items-center relative cursor-pointer ${destination.name === dest.name ? 'border-b-3 border-white': 'hover:border-white/50'} hover:border-b-3 `} onClick={()=>setDestination(dest)}>
 										<button 
 											className="text-white font-secondary text-[14px] flex justify-center sm:text-[16px] uppercase cursor-pointer"
 											

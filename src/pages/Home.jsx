@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function Home() {
 	return (
 		<>
@@ -19,12 +21,13 @@ function Home() {
 						</p>
 					</div>
 					<div className="flex items-center justify-center xl:justify-end flex-1 xl:w-[50%] relative">
-						
 						<div className="bg-white w-[144px] h-[144px] rounded-full flex items-center justify-center sm:w-[272px] sm:h-[272px] cursor-pointer relative z-10 group">
-							<button className="font-title text-[18px] sm:text-[32px] cursor-pointer">
-								EXPLORE
-							</button>
-							<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10 scale-0 group-hover:scale-100 transition-transform duration-500 ease-in-out w-[272px] h-[272px] sm:w-[450px] sm:h-[450px] z-[-1]" />
+							<NavLink to={'/destination'}>
+								<button className="font-title text-[18px] sm:text-[32px] cursor-pointer">
+									EXPLORE
+								</button>
+								<div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/10 scale-0 group-hover:scale-100 transition-transform duration-500 ease-in-out w-[272px] h-[272px] sm:w-[450px] sm:h-[450px] z-[-1]" />
+							</NavLink>
 						</div>
 					</div>
 				</div>
