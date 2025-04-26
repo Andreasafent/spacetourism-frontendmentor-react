@@ -2,7 +2,7 @@ import { useState } from "react";
 import data from "../data/data.json";
 
 function Destination() {
-	const [destination, setDestination] = useState(data.destinations[1]);
+	const [destination, setDestination] = useState(data.destinations[0]);
 
 	return (
 		<main className="w-full p-[24px] sm:p-[40px] flex flex-1 xl:px-[165px]">
