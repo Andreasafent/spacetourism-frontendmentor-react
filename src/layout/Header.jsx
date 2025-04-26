@@ -9,7 +9,7 @@ function Header() {
 			<header className="w-full h-[88px] flex justify-between items-center p-[24px] sm:p-0 sm:h-[96px] xl:mt-[40px]">
 				<div className="h-full flex items-center sm:px-[40px] xl:px-[48px]">
 					<img
-						src="src\assets\shared\logo.svg"
+						src="./assets/shared/logo.svg"
 						className="h-full object-contain sm:w-[48px] sm:h-[48px] xl:w-[48px] xl:h-[48px]"
 					/>
 				</div>
@@ -22,7 +22,7 @@ function Header() {
 						onClick={() => setOpen(true)}
 					>
 						<img
-							src="src\assets\shared\icon-hamburger.svg"
+							src="./assets/shared/icon-hamburger.svg"
 							className="sm:hidden"
 						/>
 					</button>

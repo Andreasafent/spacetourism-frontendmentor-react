@@ -6,7 +6,7 @@ function Sidebar({ open, setOpen }) {
                     className="flex items-center cursor-pointer"
                     onClick={()=>setOpen(false)}
                 >
-					<img src="src\assets\shared\icon-close.svg" alt="" />
+					<img src="./assets/shared/icon-close.svg" alt="" />
 				</button>
 			</div>
 			<div className="">
@@ -14,8 +14,7 @@ function Sidebar({ open, setOpen }) {
 					<ul className="flex flex-col gap-[32px]">
 						<li className="flex gap-[12px] tracking-[2.7px] border-r-3 cursor-pointer">
 							<span className="font-secondary-bold">00</span>
-							<span className="font-secondary">HOME</span>
-                            
+							<span className="font-secondary">HOME</span>                            
 						</li>
 						<li className="flex gap-[12px] tracking-[2.7px] cursor-pointer">
 							<span className="font-secondary-bold">01</span>
